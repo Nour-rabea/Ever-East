@@ -5,9 +5,9 @@
       "type": "Feature",
       "properties": {
         "stroke": "#fb0909",
-        "stroke-width": 2,
+        "stroke-width": 3.8,
         "stroke-opacity": 1,
-        "fill": "#e0d1d1",
+        "fill": "#bcb3b3",
         "fill-opacity": 0.5
       },
       "geometry": {
