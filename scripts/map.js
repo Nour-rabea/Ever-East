@@ -532,6 +532,7 @@ $(window).on('load', function() {
     var col = allColors[polygon][layer];
     var div = allDivisors[polygon][layer];
 
+    var lay_newcairo = L.imageOverLay('https://s3.us-east-2.amazonaws.com/images.cooingestate.com/admin/compound/map/180/Sky_Condo.jpeg'.addToMapp(map));
     var i;
 
     if (num) {
