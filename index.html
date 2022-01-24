@@ -71,26 +71,18 @@
   <table id="maptable" class="display"></table>
 
   <script type="text/javascript">
-    var map;
-    var layercairo;
-    
-    
-    
-    map = L.map('map', {
+    var map = L.map('map', {
       attributionControl: false,
       zoomControl: false,
       scrollWheelZoom: true,
       tap: false
     }).setView([30.00,30.96], 11);
     
-    layercairo = L.imageOverlay('./1.jpg',[[ 31.5686113, 29.9937894],[31.576379, 30.0043817]].addTo(map));
+    var layercairo;
     
-    objOverlays = {
     
-      "layercairo Image" = layercairo
     
-    };
- 
+
   </script>
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
