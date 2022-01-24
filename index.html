@@ -70,21 +70,17 @@
   <div id="map"></div>
   <table id="maptable" class="display"></table>
 
-  <script type="text/javascript">
-    var map = L.map('map', {
-      attributionControl: false,
-      zoomControl: false,
-      scrollWheelZoom: true,
-      tap: false
-    }).setView([30.02, 31.55], 11);
+  <script>
+    var map = L.map('map')
+    map.setView([30.02, 31.55], 11);
     
     var backgroundLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
-            //mymap.addLayer(backgroundLayer);
+            //map.addLayer(backgroundLayer);
 
-            var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-});
-                map.addLayer(Esri_WorldImagery);
+    });
+    map.addLayer(Esri_WorldImagery);
 
     
     
