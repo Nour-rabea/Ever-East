@@ -29,6 +29,9 @@
   <!-- leaflet-providers-->
   <script src="http://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="js/leaflet-providers.js"></script>
+  var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+});
   
   <!-- Leaflet.awesome-markers v2.0.4, manually updated to svg to allow hex and material icons -->
   <link rel="stylesheet" type="text/css" href="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.css">
