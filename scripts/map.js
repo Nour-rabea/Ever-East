@@ -532,7 +532,6 @@ $(window).on('load', function() {
     var col = allColors[polygon][layer];
     var div = allDivisors[polygon][layer];
 
-    var lay_newcairo = L.imageOverLay(Point, '_Image'.addToMapp(map));
     var i;
 
     if (num) {
