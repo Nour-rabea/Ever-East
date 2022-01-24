@@ -6,7 +6,8 @@
       "properties": {
         "stroke": "#ff0000",
         "stroke-width": 4.5,
-        "stroke-opacity": 2
+        "stroke-opacity": 2,
+        "img": "media/رسم ارض التجمع.jpg"
       },
       "geometry": {
         "type": "LineString",
