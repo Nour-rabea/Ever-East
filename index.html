@@ -71,12 +71,139 @@
   <table id="maptable" class="display"></table>
 
   <script type="text/javascript">
-    var map = L.map('map', {
+    var map;
+    var layercairo;
+    
+    
+    
+    map = L.map('map', {
       attributionControl: false,
       zoomControl: false,
       scrollWheelZoom: true,
       tap: false
-    }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
+    }).setView([30.00,30.96], 11);
+    
+    layercairo = L.imageOverlay('https://s3.us-east-2.amazonaws.com/images.cooingestate.com/admin/compound/map/180/Sky_Condo.jpeg',[
+          [
+            [
+              31.5686113,
+              29.9937894,
+              0
+            ],
+            [
+              31.576379,
+              30.0043817,
+              0
+            ],
+            [
+              31.5816575,
+              30.0116656,
+              0
+            ],
+            [
+              31.5872795,
+              30.0157904,
+              0
+            ],
+            [
+              31.5926868,
+              30.0198036,
+              0
+            ],
+            [
+              31.5936738,
+              30.0208812,
+              0
+            ],
+            [
+              31.5894252,
+              30.0230735,
+              0
+            ],
+            [
+              31.5865499,
+              30.0250057,
+              0
+            ],
+            [
+              31.58243,
+              30.0260832,
+              0
+            ],
+            [
+              31.5738899,
+              30.0261575,
+              0
+            ],
+            [
+              31.5664093,
+              30.0263675,
+              0
+            ],
+            [
+              31.5599853,
+              30.0263061,
+              0
+            ],
+            [
+              31.5589553,
+              30.0263804,
+              0
+            ],
+            [
+              31.5586549,
+              30.0258974,
+              0
+            ],
+            [
+              31.558097,
+              30.0211413,
+              0
+            ],
+            [
+              31.5577108,
+              30.0185774,
+              0
+            ],
+            [
+              31.5563804,
+              30.0138209,
+              0
+            ],
+            [
+              31.5549642,
+              30.0098075,
+              0
+            ],
+            [
+              31.5536338,
+              30.0066487,
+              0
+            ],
+            [
+              31.5519601,
+              30.0037871,
+              0
+            ],
+            [
+              31.5522605,
+              30.0029323,
+              0
+            ],
+            [
+              31.5686113,
+              29.9937894,
+              0
+            ]
+          ]
+        ].addTo(map));
+    
+    objOverlays = {
+    
+      "layercairo Image" = layercairo
+    
+    };
+ 
   </script>
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
