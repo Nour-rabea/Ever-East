@@ -611,7 +611,7 @@
       },
       "properties": {
         "name": "La Vista City",
-        "description": "<img src=\"https://doc-0k-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/443hj5vmgaphf24b63d6f4eqak/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vYFbqP1l_d_ipiTe5Gh65OhDKpopZiIe7vB0f7okg1FaPnOho7-TuN7Dadq7Zs3fJXeqNYdhqSQDlk3n9CEPEXFzAPZe3mvcNEkGx7sXGeOWQWTFMZ_6iST8JwsQB3pmctF4yUPxyczfonrDiE0p4Ut-vhxMDkSv0RouT8DGpbtnNBv4wuBdZMaUc-2W7-Alohv?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+        "description": "",
         "gx_media_links": "https://doc-0k-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/443hj5vmgaphf24b63d6f4eqak/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vYFbqP1l_d_ipiTe5Gh65OhDKpopZiIe7vB0f7okg1FaPnOho7-TuN7Dadq7Zs3fJXeqNYdhqSQDlk3n9CEPEXFzAPZe3mvcNEkGx7sXGeOWQWTFMZ_6iST8JwsQB3pmctF4yUPxyczfonrDiE0p4Ut-vhxMDkSv0RouT8DGpbtnNBv4wuBdZMaUc-2W7-Alohv?session=0&fife",
         "fill": "#9b9797",
         "stroke-width": "",
@@ -687,11 +687,11 @@
       },
       "properties": {
         "name": "PATIO ORO",
-        "description": "<img src=\"https://doc-0s-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/fmkk1dvff6ebgf8iv57i2oth4c/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vZYUf7YQ6pqEQiZXRKVa98JS8qQTrEN6YVqfTm80-0IyLabOHkHeRQZN6cx6-B8N4BRWIbnQsxgVtB7Ol7TyT_QHMC-4f8gLRpTg-nIf62JULHYu0xss7UDUOKklS2gCVQyRUnHiXUZpYstqdsvCkCBaKTI_OlMvkADg6HMEVLomg2VZB-wSpP436ksrgEE24w?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>LA VISTA",
+        "description": "",
         "gx_media_links": "https://doc-0s-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/fmkk1dvff6ebgf8iv57i2oth4c/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vZYUf7YQ6pqEQiZXRKVa98JS8qQTrEN6YVqfTm80-0IyLabOHkHeRQZN6cx6-B8N4BRWIbnQsxgVtB7Ol7TyT_QHMC-4f8gLRpTg-nIf62JULHYu0xss7UDUOKklS2gCVQyRUnHiXUZpYstqdsvCkCBaKTI_OlMvkADg6HMEVLomg2VZB-wSpP436ksrgEE24w?session=0&fife",
         "stroke-width": "",
-        "fill": "<img src=\"https://www.lavista.com.eg/public/uploads/15812533771581253377_5e400301c04ca.jpg\"></img>",
-        "img": "",
+        "fill": "",
+        "img": "https://www.lavista.com.eg/public/uploads/15812533771581253377_5e400301c04ca.jpg",
         "stroke-opacity": ""
       }
     },
