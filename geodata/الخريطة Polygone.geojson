@@ -3395,7 +3395,95 @@
       "properties": {
         "name": "Eastown\n",
         "description": "<img src=\"https://doc-04-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/8ofmi0jme2r9vqet1iugnjoodg/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vY3IgPr2dmqqigm5zzMVpztjK_ZhoWzUzC03dFgX6R5Qs_hzDHtSgnvpgwB94VEaYFvllVeSeuvSTTSeuDGkPZR72A-0Sp63Pd8Kye0uu37-dlR7bZ4PQBHD3VCJ5gMrMpy6oOpa7G8SNfYfIyv9VTGCNa7KPFQiVTF_DtOEO7FOh1EXm2QuF_eGI4ZKrbLuic?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Sodic",
-        "gx_media_links": "https://doc-04-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/8ofmi0jme2r9vqet1iugnjoodg/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vY3IgPr2dmqqigm5zzMVpztjK_ZhoWzUzC03dFgX6R5Qs_hzDHtSgnvpgwB94VEaYFvllVeSeuvSTTSeuDGkPZR72A-0Sp63Pd8Kye0uu37-dlR7bZ4PQBHD3VCJ5gMrMpy6oOpa7G8SNfYfIyv9VTGCNa7KPFQiVTF_DtOEO7FOh1EXm2QuF_eGI4ZKrbLuic?session=0&fife"
+        "gx_media_links": "https://doc-04-7s-mymaps.googleusercontent.com/untrusted/hostedimage/kuqpiikv4hk0mddf0kpggr69gk/8ofmi0jme2r9vqet1iugnjoodg/1642935931000/HWNn31-iN7DNv4XVcWqYaunlIDfHXsQo/04921836320569710604/5AIsG_vY3IgPr2dmqqigm5zzMVpztjK_ZhoWzUzC03dFgX6R5Qs_hzDHtSgnvpgwB94VEaYFvllVeSeuvSTTSeuDGkPZR72A-0Sp63Pd8Kye0uu37-dlR7bZ4PQBHD3VCJ5gMrMpy6oOpa7G8SNfYfIyv9VTGCNa7KPFQiVTF_DtOEO7FOh1EXm2QuF_eGI4ZKrbLuic?session=0&fife",
+        "img": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ارض 157.5 فدان",
+        "description": "سياحي اداري ترفيهي وعمراني ارتفاع (ارضي+4ادوار)",
+        "img": "https://nour-rabea.github.io/New-Cairo/media/%D8%B1%D8%B3%D9%85%20%D8%A7%D8%B1%D8%B6%20%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.55786275863647,
+              30.026522517523194
+            ],
+            [
+              31.55438661575317,
+              30.026541095442187
+            ],
+            [
+              31.553099155426022,
+              30.026002334377804
+            ],
+            [
+              31.552734374999996,
+              30.024683286309113
+            ],
+            [
+              31.552541255950928,
+              30.022342397232872
+            ],
+            [
+              31.552283763885494,
+              30.019889977969076
+            ],
+            [
+              31.551747322082516,
+              30.017456077671824
+            ],
+            [
+              31.551339626312256,
+              30.0154122984579
+            ],
+            [
+              31.551039218902588,
+              30.014000208216824
+            ],
+            [
+              31.55198335647583,
+              30.01370292349901
+            ],
+            [
+              31.55445098876953,
+              30.013145512251445
+            ],
+            [
+              31.55526638031006,
+              30.013089770954384
+            ],
+            [
+              31.555631160736084,
+              30.01463193528361
+            ],
+            [
+              31.556704044342037,
+              30.01827357756408
+            ],
+            [
+              31.55734777450561,
+              30.021487773163116
+            ],
+            [
+              31.557701826095578,
+              30.023912285296888
+            ],
+            [
+              31.557884216308597,
+              30.025881577185856
+            ],
+            [
+              31.55786275863647,
+              30.026522517523194
+            ]
+          ]
+        ]
       }
     }
   ]
