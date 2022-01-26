@@ -6,7 +6,7 @@ $(window).on('load', function() {
   var polygonsLegend;
 
   var completePoints = false;
-  var completePolygons = false;
+  var completePolygons = true;
   var completePolylines = false;
 
   /**
