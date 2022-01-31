@@ -84,6 +84,10 @@
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
     map.addLayer(Esri_WorldImagery);
+	  
+    var imageUrl = 'media/favicon.png',
+    	imageBounds = [[30.027953, 31.457672], [30.026673, 31.459449]];
+	L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
   </script>
 
