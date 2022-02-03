@@ -79,10 +79,11 @@ $(window).on('load', function() {
         // Add color to the crosswalk
         group2color[ group ] = points[i]['Marker Icon'].indexOf('.') > 0
           ? points[i]['Marker Icon']
-          : points[i]['Marker Color'];
+          : points[i]['Marker Color']
+          : points[i]['text'];
       }
     }
-
+    
     // if none of the points have named layers, return no layers
     if (groups.length === 0) {
       layers = undefined;
