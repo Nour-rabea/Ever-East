@@ -82,7 +82,7 @@ $(window).on('load', function() {
          
       }
       L.marker([30.043928,31.506785])
-	.bindLabel('A sweet static label!', { noHide: true })
+	.bindLabel('A sweet static label!', { permanent: true })
 	.addTo(map);
     
     }
