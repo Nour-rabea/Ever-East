@@ -78,13 +78,8 @@ $(window).on('load', function() {
         // Add color to the crosswalk
         group2color[ group ] = points[i]['Marker Icon'].indexOf('.') > 0
           ? points[i]['Marker Icon']
-          : points[i]['Marker Color'];
-         
+          : points[i]['Marker Color'];  
       }
-      L.AwesomeMarkers([30.043928,31.506785])
-	.bindLabel('A sweet static label!', { permanent: true })
-	.addTo(map);
-    
     }
    
 
