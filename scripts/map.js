@@ -17,7 +17,7 @@ $(window).on('load', function() {
       icon: icon,
       prefix: prefix,
       markerColor: markerColor,
-      iconColor: iconColor,
+      iconColor: iconColor
       
     });
   }
