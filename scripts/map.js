@@ -18,7 +18,7 @@ $(window).on('load', function() {
       prefix: prefix,
       markerColor: markerColor,
       iconColor: iconColor,
-       html:'<span class="my-div-span">RAF Banff Airfield</span>'
+      
     });
   }
 
