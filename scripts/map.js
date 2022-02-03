@@ -12,13 +12,13 @@ $(window).on('load', function() {
   /**
    * Returns an Awesome marker with specified parameters
    */
-  function createMarkerIcon(icon, prefix, markerColor, iconColor, text) {
+  function createMarkerIcon(icon, prefix, markerColor, iconColor) {
     return L.AwesomeMarkers.icon({
       icon: icon,
       prefix: prefix,
       markerColor: markerColor,
       iconColor: iconColor,
-      text: text 
+       html:'<span class="my-div-span">RAF Banff Airfield</span>'
     });
   }
 
