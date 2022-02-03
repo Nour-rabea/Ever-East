@@ -18,7 +18,6 @@ $(window).on('load', function() {
       prefix: prefix,
       markerColor: markerColor,
       iconColor: iconColor
-      
     });
   }
 
@@ -80,7 +79,6 @@ $(window).on('load', function() {
         group2color[ group ] = points[i]['Marker Icon'].indexOf('.') > 0
           ? points[i]['Marker Icon']
           : points[i]['Marker Color']
-          : points[i]['text'];
       }
     }
     
