@@ -79,8 +79,8 @@
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
-<table id="maptable" class="display" onclick="addRowHandlers()"></table>
-<button id="container" class="btn" onclick="myFunction()">Data Table</button>
+<table id="maptable" class="display"></table>
+<button id="container" class="btn">Data Table</button>
 
   <script type="text/javascript">
     var map = L.map('map', {
@@ -90,10 +90,9 @@
       tap: false
     }).setView([30.02, 31.55], 11); // default center is overridden by Google Sheet options and points
 
-    ///var imageUrl = 'media/layout.png',
-   	///imageBounds = [[29.994293, 31.574531], [29.933195, 31.521640], [29.921658, 31.583310]];
-	///L.imageOverlay(imageUrl, imageBounds).addTo(map);
-
+    var imageUrl = 'media/layout.png',
+   	imageBounds = [[29.994293, 31.574531], [29.933195, 31.521640], [29.921658, 31.583310]];
+	L.imageOverlay(imageUrl, imageBounds).addTo(map);
   </script>
 
 <script>
@@ -102,13 +101,13 @@
   }
   </script>
   
-    <script>
-  function myFunction() {
-    let x = document.getElementById("maptable");
-    x.style.fontSize = "15px"; 
-    x.style.color = "red"; 
-  }
-  </script>
+    ///<script>
+  ///function myFunction() {
+    ///let x = document.getElementById("maptable");
+    ///x.style.fontSize = "15px"; 
+    ///x.style.color = "red"; 
+  ///}
+  ///</script>
     
     <script>
   function addRowHandlers() {
