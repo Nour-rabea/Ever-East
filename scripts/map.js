@@ -134,7 +134,7 @@ $(window).on('load', function() {
           point['Website'] + '</b><br>' +
           point['Brochure'] + '</b><br>' +
           point['Head Offices'])
-          .bindTooltip(point['Text'],{permanent: true, direction: 'right'});
+          ///.bindTooltip(point['Text'],{permanent: true, direction: 'right'});
 
         if (layers !== undefined && layers.length !== 1) {
           marker.addTo(layers[point.Group]);
@@ -188,8 +188,9 @@ $(window).on('load', function() {
         + getSetting('_pointsLegendIcon') + '"></i></span>');
     }
 
-    var displayTable = getSetting('_displayTable') == 'on' ? true : false;
-
+    document.getElementById("container").onclick = displayTable;
+    
+    function displayTable() {
     // Display table with active points if specified
     var columns = getSetting('_tableColumns').split(',')
                   .map(Function.prototype.call, String.prototype.trim);
@@ -208,6 +209,7 @@ $(window).on('load', function() {
           $('table.display').css('color', colors[1]);
         }
       }
+    }
 
       // Update table every time the map is moved/zoomed or point layers are toggled
       map.on('moveend', updateTable);
