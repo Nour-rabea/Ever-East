@@ -210,7 +210,6 @@ $(window).on('load', function() {
         }
       }
     }
-
       // Update table every time the map is moved/zoomed or point layers are toggled
       map.on('moveend', updateTable);
       map.on('layeradd', updateTable);
@@ -909,7 +908,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'View <a href="' + 'https://www.castle-development.com/' + '" target="_blank">data</a>';
+    var credit = 'View <a href="' + 'https://www.cred-eg.com/' + '" target="_blank">data</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
