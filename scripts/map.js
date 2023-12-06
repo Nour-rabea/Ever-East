@@ -133,8 +133,10 @@ $(window).on('load', function() {
           point['Hotline'] + '</b><br>' +
           point['Website'] + '</b><br>' +
           point['Brochure'] + '</b><br>' +
-          point['Head Offices'])
-          ///.bindTooltip(point['Text'],{permanent: true, direction: 'right'});    
+          point['Head Offices'] + '</b><br>' +
+          point['Area'] + '</b><br>' +
+          point['BUA'])
+        ///.bindTooltip(point['Text'],{permanent: true, direction: 'right'});    
 
 
         if (layers !== undefined && layers.length !== 1) {
