@@ -131,12 +131,10 @@ $(window).on('load', function() {
           point['Developer'] + '</b><br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
           point['Hotline'] + '</b><br>' +
-          point['Website'] + '<b></b><br>' +
+          point['Website'] + '</b><br>' +
           point['Brochure'] + '</b><br>' +
-          point['Head Offices'] + '</b><br>' +
-          point['Area'] + '</b><br>' +
-          point['Constructed'])
-        .tooltip(point['Logo'] ? ('<img src="' + point['Logo'] + '"><br>') : '',{permanent: true, direction: 'right', className: "leaflet-tooltip"});      
+          point['Head Offices'])
+          ///.bindTooltip(point['Text'],{permanent: true, direction: 'right'});    
 
 
         if (layers !== undefined && layers.length !== 1) {
