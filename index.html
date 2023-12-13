@@ -82,6 +82,28 @@
   </div>
 	
 <table id="maptable" class="display"></table>
+	  <button id="button" class="display" onclick="myFunction()" aria-label="Trigger Action" style="position: absolute; top: 20px;
+  right: 20px;
+  right: 3.5%;
+  top: 1%;
+  padding: 0px;
+  z-index: 400;
+  text-align: center;
+  right: 1.2%;
+  top: +7%;
+  width: 40px; height: 40px;">التقسيم الاداري</button>
+
+  <button id="Sur" class="display" onclick="myction()" aria-label="Trigger Action" style="position: absolute; top: 20px;
+  right: 20px;
+  right: 3.5%;
+  top: 1%;
+  padding: 0px;
+  z-index: 400;
+  text-align: center;
+  right: 1.2%;
+  top: +14%;
+  width: 40px; height: 40px;">المشاريع المحيطة</button>
+	
 <button id="container" class="btn">Analysis</button>
 
   <script type="text/javascript">
@@ -103,11 +125,19 @@
   }
   </script>
   
-    <script>
+<script>
   function myFunction() {
-    let x = document.getElementById("maptable");
-    x.style.fontSize = "15px"; 
-    x.style.color = "red"; 
+    var imageUrl = 'media/layout.png',
+    	imageBounds = [[29.994293, 31.574531], [29.933195, 31.521640], [29.921658, 31.583310]];
+	L.imageOverlay(imageUrl, imageBounds).addTo(map);
+  }
+  </script>
+
+<script>
+  function myction() {
+    var imageUrl = 'media/Surroundingss.jpg',
+    imageBounds = [[30.023187484365465, 31.527730225468716], [30.02228130251076, 31.61048047448948], [29.948535934252433, 31.60738527709509], [29.9492774586029, 31.528362226556002]];
+	L.imageOverlay(imageUrl, imageBounds).addTo(map);
   }
   </script>
     
